@@ -86,6 +86,7 @@ endif
 
 " scope: local
 function! s:setDictionaries()
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols = { 'styl': '', 'scss': '', 'htm': '', 'html': '', 'css': '', 'less': '', 'md': '', 'json': '', 'js': '', 'rb': '', 'php': '', 'py': '', 'pyc': '', 'pyo': '', 'pyd': '', 'coffee': '','mustache': '', 'hbs': '', 'conf': '', 'ini': '', 'yml': '', 'jpg': '', 'jpeg': '', 'bmp': '', 'png': '', 'gif': '', 'ai': '', 'twig': '', 'cpp': '', 'c++': '', 'cxx': '', 'cc': '', 'cp': '', 'c': '', 'hs': '', 'lhs': '', 'lua': '', 'java': '', 'sh': '', 'diff': '', 'db': '', 'clj': '', 'scala': '', 'go': '', 'dart': '', 'xul': '', 'sln': '', 'suo': '' }
 
 	let s:file_node_extensions = {
 		\	'styl'     : '',
